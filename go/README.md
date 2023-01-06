@@ -23,5 +23,15 @@ godoc -http=:6060
 
 # directory 를 기준으로 package 를 만든다.
 go mod init <directory>
+
+# doc 출력. 함수 위의 주석을 보여줌.
+go doc examples/8_package/math_example.go Average 
+go doc examples/8_package
+
+# testing
+# sub directory
+go test ./...  
+# 현재 directory
+go test  
 ```
 
