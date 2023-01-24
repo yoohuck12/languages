@@ -16,6 +16,7 @@ Extension 은 설치하고나면 화면 왼쪽에 탭으로 생기는 것과 바
 - vim
 - kubernetes-snippets (yaml 에서 k- 시작)
 - markdown short cut (md 파일에서 마우스 우클릭)
+- tabnine
 
 
 ## Short cut 
