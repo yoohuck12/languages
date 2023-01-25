@@ -16,3 +16,8 @@ du -had1 dir/
 $ mkdir a && cd $_
 $ echo "asdf" | grep $_ *.py
 ```
+
+## 결과값을 파이프라인으로 가져오기
+```bash
+$  kubectl get pods --namespace <namespace> | awk '{ print $1 }' | xargs -I {} kubectl exec --namespace <namespace> {}  -- bash -c "wc -l /tmp/*.csv"
+```
