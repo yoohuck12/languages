@@ -10,3 +10,9 @@ du -had1 dir/
 -a: show files, not just directories
 -d1: show totals only at depth 1, i.e. the current directory's contents
 ```
+
+## 이전 커멘드에서 사용한 변수 가져오기
+```bash
+$ mkdir a && cd $_
+$ echo "asdf" | grep $_ *.py
+```
