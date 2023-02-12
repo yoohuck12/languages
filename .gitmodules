@@ -1,0 +1,6 @@
+[submodule "arch_patterns_with_python"]
+	path = python/arch_patterns_with_python
+	url = https://github.com/cosmicpython/code.git
+[submodule "python/arch_patterns_with_python"]
+	path = python/arch_patterns_with_python
+	url = https://github.com/cosmicpython/code.git
