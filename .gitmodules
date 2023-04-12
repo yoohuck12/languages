@@ -4,3 +4,6 @@
 [submodule "python/arch_patterns_with_python"]
 	path = python/arch_patterns_with_python
 	url = https://github.com/cosmicpython/code.git
+[submodule "k8s/kubernetes-perfect-guide"]
+	path = k8s/kubernetes-perfect-guide
+	url = https://github.com/MasayaAoyama/kubernetes-perfect-guide.git
